@@ -31,4 +31,4 @@ Requirments:
     * gem 'em-http'
     * gem 'useragents'
 
-licence:mit
+license:mit
