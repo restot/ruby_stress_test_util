@@ -3,13 +3,14 @@
 For testing purposes only 
 
 Usage 
-#> log.txt;ruby ./em-dev.rb N | tee -a log.txt
+
+    #> log.txt;ruby ./em-dev.rb N | tee -a log.txt
 
 N - number of connections <= lines in 'http_proxy.txt'
 
 Statistic 
 
-watch -n 1 ./stats.sh
+    watch -n 1 ./stats.sh
 
 Build gem
 
