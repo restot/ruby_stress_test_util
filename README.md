@@ -31,4 +31,6 @@ Requirments:
     * gem 'em-http'
     * gem 'useragents'
 
-gpl
+## License
+
+[MIT](https://github.com/restot/ruby_stress_test_util/blob/master/LICENSE.txt)
