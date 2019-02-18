@@ -1,5 +1,10 @@
 require 'open-uri'
 require 'useragents'
+require 'async'
+require 'eventmachine'
+require 'em-http'
+require 'pp'
+
 count = 0
 
 #url = 'http://coxel.ws.pho.to/wp-admin/admin-ajax.php?action=send_photo&image_url=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc2%2FFlag_of_the_Schutzstaffel.svg%2F1200px-Flag_of_the_Schutzstaffel.svg.png'
