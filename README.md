@@ -1,6 +1,7 @@
-# ruby_stress_test_util
+# ruby stress test util
 
 For testing purposes only 
+Connect to URL from different ip adresses and random user agents at onece. 
 
 Usage 
 
