@@ -2,7 +2,7 @@ require 'rubygems'
 require 'eventmachine'
 require 'em-http'
 require 'useragents'
-require 'pp'
+
 
 # EventMachine.run {
 #   http = EventMachine::HttpRequest.new('http://stalnoy.org/').get :query => {'keyname' => 'value'}
@@ -16,11 +16,12 @@ require 'pp'
 #     EventMachine.stop
 #   }
 # }
-url = 'http://stalnoy.org/'
+
 proxy = []
 if ARGV.empty?
   offset = 10 
 else
+  url = ARGV[1].to_s
   offset = ARGV[0].to_i
 end
 File.readlines('./http_proxy.txt').each_with_index do |line, index|
