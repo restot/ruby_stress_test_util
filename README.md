@@ -1,7 +1,9 @@
 # ruby stress test util
 
 For testing purposes only 
+
 Connect to URL from different ip adresses and random user agents at onece.
+
 Also support https, socks4 and socks5 proxies. 
 
 Usage 
