@@ -30,3 +30,5 @@ Requirments:
     * gem 'eventmachine'
     * gem 'em-http'
     * gem 'useragents'
+
+licence:mit
